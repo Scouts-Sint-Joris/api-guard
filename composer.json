@@ -41,7 +41,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Chrisbjr\\ApiGuard\\": "src"
+            "Sijot\\ApiGuard\\": "src"
         }
     },
     "minimum-stability": "stable"
