@@ -92,4 +92,9 @@ abstract class ApiKeyRepository extends Eloquent
         return false;
     }
 
+    public function user()
+    {
+        return self::belongsTo(Sijot\User::class)
+    }
+
 }
